@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Roboto+Mono:wght@200&display=swap");
+body {
+  background-image: radial-gradient(#730000, black);
+  font-family: "Ravi Prakash", serif;
+  width: 100%; }
+
+header {
+  background-color: #730000; }
+
+div {
+  color: aliceblue; }
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: "Ravi Prakash", serif;
+    padding: 30px 26px;
+    float: left;
+    cursor: pointer; }
+  .navbar .navbar li a:hover {
+    scale: 1.2; }
+  .navbar .navbar li a:hover {
+    color: black; }
+
+.sectiontitulo {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.sectionfechas {
+  font-size: 30px;
+  text-align: center; }
+  .sectionfechas div {
+    text-align: center; }
+    .sectionfechas div h2 {
+      color: aliceblue; }
+    .sectionfechas div p {
+      color: aliceblue; }
+    .sectionfechas div .button, .sectionfechas div .button1 {
+      background-color: #730000;
+      color: aliceblue;
+      border: none;
+      padding: 5px 10px; }
+
+.button1 {
+  cursor: pointer; }
+
+.sectionmiranos, .sectionmirandos2 {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .sectionmiranos h2, .sectionmirandos2 h2 {
+    color: aliceblue; }
+  .sectionmiranos iframe, .sectionmirandos2 iframe {
+    border-radius: 12px; }
+
+.imagenuno {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(trotsky_vengaran-ea56f.jpg); }
+
+footer .logoredes {
+  background-color: #730000;
+  text-align: center; }
+  footer .logoredes a img {
+    width: 50px;
+    height: 50px; }
+
+.sectionhistoria {
+  color: aliceblue;
+  font-size: 30px; }
+
+.imagenuno {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(guille.jpg); }
+
+.sectiontitulo {
+  background-color: #730000;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+a {
+  position: relative; }
+
+img {
+  width: 100%;
+  transition: transform 0.3s ease; }
+  img:hover {
+    transform: scale(1.1); }
+
+h3 {
+  text-align: center; }
+
+.grid-banda img {
+  width: 100%;
+  transition: transform 0.3 ease-in-out; }
+
+.grid-banda img:hover {
+  transform: scale(1.2); }
+
+footer .logoredess {
+  background-color: #730000;
+  text-align: center; }
+  footer .logoredess a img {
+    width: 50px;
+    height: 50px; }
+
+.imagenuno {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(hugo.jpg); }
+
+.sectiontitulo {
+  background-color: #730000;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.discografia {
+  text-align: center; }
+  .discografia div {
+    position: relative; }
+    .discografia div img {
+      width: 100%;
+      transition: transform 0.3s ease; }
+      .discografia div img:hover {
+        transform: scale(1.1); }
+
+footer .logoredes {
+  background-color: #730000;
+  text-align: center; }
+  footer .logoredes a img {
+    width: 50px;
+    height: 50px; }
+
+.imagenuno {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(grano.jpg); }
+
+.sectionfechas {
+  font-size: 30px;
+  text-align: center; }
+
+.sectionmiranos, .sectionmirandos2 {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.imagenuno {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38.75rem;
+  width: 100%;
+  background-image: url(cuico.jpg); }
+
+.sectioncontacto {
+  color: aliceblue;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+.sectiontitulo {
+  font-size: 60px; }
+
+footer .logoredes {
+  background-color: #730000;
+  text-align: center; }
+  footer .logoredes a img {
+    width: 50px;
+    height: 50px; }
+
+@media (max-width: 320px) {
+  * {
+    font-size: 20px; } }
+
+@media (min-width: 320px) {
+  .discografia {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 320px) {
+  .sectiontitulo {
+    font-size: 20px; } }
+
+.imagenuno {
+  background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 320px) {
+    .imagenuno {
+      background-size: 100% auto;
+      width: 100%;
+      height: auto; } }
+
+.sectioncontacto {
+  color: aliceblue;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+@media (max-width: 320px) {
+  .sectioncontacto {
+    font-size: 14px;
+    padding: 10px; } }
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  @media (max-width: 320px) {
+    .integrantes {
+      flex-direction: column; } }
+
+@media (min-width: 320px) {
+  .grid-banda {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 480px) {
+  * {
+    font-size: 25px; } }
+
+@media (min-width: 480px) {
+  .discografia {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 480px) {
+  .sectiontitulo {
+    font-size: 30px; } }
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  @media (max-width: 425px) {
+    .integrantes {
+      flex-direction: column; } }
+
+.grid-banda img {
+  width: 100%; }
+
+@media (min-width: 480px) {
+  .grid-banda {
+    grid-template-columns: repeat(1, 1fr); } }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #730000;
+  padding: 10px 20px; }
+  .navbar li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    font-size: 18px; }
+    @media (max-width: 425px) {
+      .navbar li a {
+        margin: 20px 0;
+        font-size: 16px; } }
+
+.imagenuno {
+  background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 480px) {
+    .imagenuno {
+      background-size: 100% auto;
+      width: 100%;
+      height: auto; } }
+
+.sectioncontacto {
+  color: aliceblue;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+@media (max-width: 480px) {
+  .sectioncontacto {
+    font-size: 14px;
+    padding: 10px; } }
+
+@media (max-width: 768px) {
+  * {
+    font-size: 30px; } }
+
+.discografia {
+  display: grid;
+  grid-gap: 22px; }
+  @media (min-width: 768px) {
+    .discografia {
+      grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 768px) {
+  .sectiontitulo {
+    font-size: 40px; } }
+
+.grid-banda {
+  display: grid;
+  grid-gap: 22px; }
+  @media (min-width: 768px) {
+    .grid-banda {
+      grid-template-columns: repeat(2, 1fr); } }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #730000;
+  padding: 10px 20px; }
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative; } }
+
+.imagenuno {
+  background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 768px) {
+    .imagenuno {
+      background-size: 100% auto;
+      width: 100%;
+      height: auto; } }
+
+.sectioncontacto {
+  color: aliceblue;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+@media (max-width: 768px) {
+  .sectioncontacto {
+    font-size: 14px;
+    padding: 10px; } }
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 40px; } }
+
+.imagenuno {
+  background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 1024px) {
+    .imagenuno {
+      background-size: 100% auto;
+      width: 100%;
+      height: auto; } }
+
+@media (min-width: 1024px) {
+  .discografia {
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: repeat(3, 1fr); } }
+
+.sectiontitulo {
+  background-color: #730000;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+@media (min-width: 1024px) {
+  .grid-banda {
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: repeat(3, 1fr); } }
+
+.grid-banda img {
+  width: 100%; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #730000;
+  padding: 10px 20px; }
+  .navbar li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    font-size: 18px; }
+    @media (max-width: 1024px) {
+      .navbar li a {
+        font-size: 16px; } }
+
+.sectioncontacto {
+  color: aliceblue;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+@media (max-width: 1024px) {
+  .sectioncontacto {
+    font-size: 14px;
+    padding: 10px; } }

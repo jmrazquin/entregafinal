@@ -1,0 +1,104 @@
+ @media (max-width: 480px) {
+   * {
+     font-size: 25px;
+   }
+ }
+
+
+ @media (min-width: 480px) {
+  .discografia {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+ @media (max-width: 480px) {
+   .sectiontitulo {
+     font-size: 30px;
+   }
+ }
+
+
+
+
+ .integrantes {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+   @media (max-width: 425px) {
+     flex-direction: column;
+   }
+ }
+
+
+ .grid-banda {
+   img {
+     width: 100%;
+   }
+
+   @media (min-width: 480px) {
+     grid-template-columns: repeat(1, 1fr);
+   }
+ }
+
+
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: $header-background;
+   padding: 10px 20px;
+
+
+   li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+
+   li a {
+     text-decoration: none;
+     color: $colorletra;
+     margin-right: 20px;
+     font-size: 18px;
+
+
+     @media (max-width: 425px) {
+       margin: 20px 0;
+       font-size: 16px;
+     }
+   }
+ }
+ 
+ .imagenuno {
+  // Definir el tamaño de fondo y la imagen de fondo
+  background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+  background-size: 100% auto; // Cambia el tamaño de fondo para ocupar el ancho de la pantalla
+  width: 100%; // Establece el ancho del elemento al 100% del contenedor
+  height: 100vh; // Establece la altura al 100% de la altura de la pantalla
+
+  @media (max-width: 480px) {
+    // Cambiar el tamaño de fondo para pantallas pequeñas
+    background-size: 100% auto;
+    width: 100%;
+    height: auto; // Permitir que la altura se ajuste automáticamente
+  }
+}
+
+.sectioncontacto {
+  color: $colorletra;
+  max-width: 100%; 
+  margin: 0 auto; 
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px; 
+}
+
+@media (max-width: 480px) {
+  .sectioncontacto {
+      font-size: 14px; 
+      padding: 10px; 
+  }
+}

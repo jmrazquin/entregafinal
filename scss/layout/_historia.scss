@@ -1,0 +1,73 @@
+.sectionhistoria {
+  color: $colorletra;
+  font-size: 30px;
+}
+
+.imagenuno {
+  @include imagengeneral(no-repeat, contain, 38.75rem, 100%);
+  background-image: url(guille.jpg);
+
+}
+
+
+.sectiontitulo {
+  background-color: $header-background;
+  font-size: 60px;
+  @include titulos(flex, row, space-evenly, wrap);
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+a {
+  position: relative;
+}
+
+
+img {
+  width: 100%;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+
+  }
+}
+
+
+h3 {
+  text-align: center;
+}
+
+.grid-banda {
+
+  img {
+    width: 100%;
+    transition: transform 0.3 ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+}
+
+
+footer {
+  .logoredess {
+    background-color: $header-background;
+    text-align: center;
+
+    a {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

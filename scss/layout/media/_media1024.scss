@@ -1,0 +1,99 @@
+@media (max-width: 1024px) {
+    * {
+        font-size: 40px;
+    }
+}
+
+.imagenuno {
+    // Definir el tamaño de fondo y la imagen de fondo
+    background: url(trotsky_vengaran-ea56f.jpg) no-repeat;
+    background-size: 100% auto; // Cambia el tamaño de fondo para ocupar el ancho de la pantalla
+    width: 100%; // Establece el ancho del elemento al 100% del contenedor
+    height: 100vh; // Establece la altura al 100% de la altura de la pantalla
+  
+    @media (max-width: 1024px) {
+      // Cambiar el tamaño de fondo para pantallas pequeñas
+      background-size: 100% auto;
+      width: 100%;
+      height: auto; // Permitir que la altura se ajuste automáticamente
+    }
+  }
+
+.discografia {
+
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.sectiontitulo {
+
+    background-color: $header-background;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.grid-banda {
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-background;
+    padding: 10px 20px;
+
+
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $colorletra;
+        margin-right: 20px;
+        font-size: 18px;
+
+        @media (max-width: 1024px) {
+            font-size: 16px;
+        }
+
+    }
+}
+.sectioncontacto {
+    color: $colorletra;
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px; 
+}
+
+@media (max-width: 1024px) {
+    .sectioncontacto {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+}
+
