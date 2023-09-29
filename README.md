@@ -1,4 +1,4 @@
-# Tercera-Pre-Entrega-Final--
+# ENTREGA FINAL--
 Trotsky Vengarán - Página Web
 
 Este proyecto es una página web inspirada en la banda de punk rock uruguaya TROTSKY VENGARAN. La página proporciona información detallada sobre la banda, incluyendo su historia, discos más importantes, próximos shows y detalles de contacto para contrataciones.
